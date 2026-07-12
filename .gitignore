@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Local tooling
+.claude/settings.local.json
+
+# Downloaded binaries / archives
+ngrok.zip
+ngrok
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Database dumps
+*.sqlite3
+*.db
